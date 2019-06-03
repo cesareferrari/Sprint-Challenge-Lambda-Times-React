@@ -10,7 +10,7 @@ export default class Content extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selected: 'React.js',
+      selected: 'all',
       tabs: [],
       cards: []
     };
@@ -28,6 +28,7 @@ export default class Content extends Component {
     // this function should take in the tab and update the state with the new tab.
     this.setState({selected: tab})
   };
+
 
   filterCards = () => {
     /* Right now this function only returns the cards on state.

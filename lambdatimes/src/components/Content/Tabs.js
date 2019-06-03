@@ -12,7 +12,7 @@ const Tabs = props => {
               <Tab
                 key={tab}
                 tab={tab}
-                selectTabHandler={props.changeSelected} 
+                selectTabHandler={props.selectTabHandler} 
                 selectedTab={props.selectedTab}
               />
             )
