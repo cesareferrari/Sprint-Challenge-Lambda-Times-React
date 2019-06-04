@@ -52,6 +52,8 @@ body {
   color: #333;
   font-family: 'PT Sans', sans-serif;
 }
+
+/*
 .top-bar {
   width: 100%;
   display: flex;
@@ -62,6 +64,10 @@ body {
   height: 44px;
   background-color: #333;
 }
+*/
+
+
+/*
 .top-bar .container {
   width: 100%;
   display: flex;
@@ -72,11 +78,16 @@ body {
   letter-spacing: 1px;
   padding: 0 10px;
 }
+*/
+
 @media (min-width: 1280px) {
   .top-bar .container {
     width: 1280px;
   }
 }
+
+
+/*
 .top-bar .container .container-left {
   display: flex;
   justify-content: none;
@@ -85,11 +96,16 @@ body {
   flex: 1;
   font-size: 11px;
 }
+
+
 .top-bar .container .container-left span {
   cursor: pointer;
   margin-right: 25%;
   font-weight: bold;
 }
+*/
+
+/*
 .top-bar .container .container-center {
   display: flex;
   justify-content: center;
@@ -98,6 +114,9 @@ body {
   flex: 3;
   font-size: 9px;
 }
+
+
+
 .top-bar .container .container-center span {
   cursor: pointer;
   margin-right: 5%;
@@ -108,6 +127,13 @@ body {
 .top-bar .container .container-center span:hover {
   text-decoration: underline;
 }
+
+*/
+
+
+
+
+/*
 .top-bar .container .container-right {
   display: flex;
   justify-content: flex-end;
@@ -117,9 +143,16 @@ body {
   font-size: 11px;
   font-weight: bold;
 }
+*/
+
+/*
 .top-bar .container .container-right span {
   cursor: pointer;
 }
+*/
+
+
+
 .header {
   display: flex;
   justify-content: space-between;
