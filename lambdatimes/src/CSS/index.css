@@ -151,7 +151,7 @@ body {
 }
 */
 
-
+/*
 
 .header {
   display: flex;
@@ -165,11 +165,17 @@ body {
   margin-top: 44px;
   padding-bottom: 15px;
 }
+
+*/
+
+
 @media (min-width: 1280px) {
   .header {
     width: 1280px;
   }
 }
+
+/*
 .header h1 {
   font-size: 60px;
   font-family: Didot, serif;
@@ -193,6 +199,9 @@ body {
   margin-right: 25px;
   flex: 1;
 }
+*/
+
+
 .content-container {
   display: flex; 
   flex-direction: column; 
